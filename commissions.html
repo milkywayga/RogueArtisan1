@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Moss & Hide — small-batch leathercraft and custom commissions inspired by the Pacific Northwest.">
+<title>Commissions · Moss &amp; Hide</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html"><span class="brand-mark">M</span><span>Moss &amp; Hide</span></a>
+    <button class="menu" aria-label="Open navigation">☰</button>
+    <nav class="nav-links">
+      <a class="" href="index.html">Home</a>
+      <a class="active" href="commissions.html">Commissions</a>
+      <a class="" href="works.html">Works</a>
+      <a class="nav-cta" href="commissions.html">Start a project</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Custom leatherwork</div>
+    <h1>Let's make something<br>that fits.</h1>
+    <p>From everyday carry to unusual one-offs, commissions are a chance to make a piece around a real person, a real use, or a particularly good idea.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container form-wrap">
+    <div>
+      <div class="eyebrow">How it works</div>
+      <h2>Start with the idea.</h2>
+      <ul class="list">
+        <li>Send a description of what you're after.</li>
+        <li>We'll talk materials, size, details, and expectations.</li>
+        <li>I'll confirm whether it's a good fit and provide an estimate.</li>
+        <li>Once approved, your piece joins the build queue.</li>
+      </ul>
+      <div class="notice" style="margin-top:28px">Submitting this form is an inquiry, not a purchase or guarantee that the project will be accepted.</div>
+    </div>
+
+    <form id="commission-form" class="card form-card">
+      <div class="form-grid">
+        <div class="field"><label for="name">Name</label><input id="name" name="name" required></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" required></div>
+      </div>
+      <div class="form-grid">
+        <div class="field"><label for="type">Project type</label>
+          <select id="type" name="type">
+            <option>Wallet / card holder</option><option>Bag / pouch</option><option>Sheath / case</option>
+            <option>Desk / everyday carry</option><option>Something unusual</option><option>I'm not sure yet</option>
+          </select>
+        </div>
+        <div class="field"><label for="budget">Approximate budget</label>
+          <select id="budget" name="budget">
+            <option>Under $100</option><option>$100–$250</option><option>$250–$500</option><option>$500+</option><option>Not sure yet</option>
+          </select>
+        </div>
+      </div>
+      <div class="field"><label for="details">Tell me about the project</label><textarea id="details" name="details" required placeholder="What do you want made? What will it be used for? Any important dimensions or features?"></textarea></div>
+      <div class="field"><label for="notes">Reference links / additional notes <span class="help">(optional)</span></label><textarea id="notes" name="notes" style="min-height:100px" placeholder="Colors, leather preferences, examples, timing, or anything else helpful."></textarea></div>
+      <button class="btn btn-primary" type="submit">Prepare inquiry email</button>
+      <p class="help" style="margin:14px 0 0">Your email app will open with the inquiry prepared. Before publishing, replace the placeholder email in <code>script.js</code>.</p>
+    </form>
+  </div>
+</section>
+
+<section class="section band">
+  <div class="container">
+    <div class="section-head">
+      <div><div class="eyebrow">Maker's choice</div><h2>Have an old piece that needs a new life?</h2></div>
+      <p>Use the same inquiry form for repairs, modifications, or projects where you want me to take the creative lead. Send the story and the constraints; I'll tell you what I think is possible.</p>
+    </div>
+    <a class="btn btn-secondary" href="#commission-form">Send something to work on</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-row">
+    <div><strong>Moss &amp; Hide</strong><div class="small">Handmade leatherwork, Pacific Northwest inspired.</div></div>
+    <div class="small">© 2026 Moss &amp; Hide · Built for GitHub Pages</div>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
