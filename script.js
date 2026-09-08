@@ -39,7 +39,7 @@ const form = document.querySelector("#commission-form");
 if(form){
   form.addEventListener("submit", (e)=>{
     e.preventDefault();
-    const email = "rogueartisan@outlook.com"; // <-- change this
+    const email = "YOUR_EMAIL@example.com"; // <-- change this
     const data = new FormData(form);
     const subject = encodeURIComponent("Leatherwork commission inquiry");
     const body = encodeURIComponent(

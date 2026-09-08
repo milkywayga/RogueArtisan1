@@ -1,4 +1,4 @@
-# Moss & Hide — GitHub Pages site
+# Rogue Artisan — GitHub Pages site
 
 A static three-page leathercraft portfolio built with plain HTML, CSS, and JavaScript.
 
@@ -14,7 +14,7 @@ A static three-page leathercraft portfolio built with plain HTML, CSS, and JavaS
 1. Open `script.js`.
 2. Find `YOUR_EMAIL@example.com`.
 3. Replace it with the email address where you want commission inquiries sent.
-4. Replace the working name "Moss & Hide" with your own maker/business name if desired.
+4. Replace the working name "Rogue Artisan" with your own maker/business name if desired.
 
 ## GitHub Pages
 1. Create a new GitHub repository.
